@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KSS - Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+    
+    <div class="container">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <div class="logo">
+                <h2>KSS</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">
+                        <span class="nav-icon">🏠</span>
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">
+                        <span class="nav-icon">👤</span>
+                        About
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">
+                        <span class="nav-icon">🚀</span>
+                        Skills
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">
+                        <span class="nav-icon">💼</span>
+                        Projects
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">
+                        <span class="nav-icon">⚙️</span>
+                        Services
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">
+                        <span class="nav-icon">📧</span>
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Home Section -->
+            <section id="home" class="hero-section section active">
+                <!-- Decorative elements -->
+                <div class="decoration-1"></div>
+                <div class="decoration-2"></div>
+
+                <!-- Photo container -->
+                <div class="photo-container">
+                    <div class="photo-placeholder">
+                        <img src="4c97228b-e3e8-4bf6-a07e-e65e8b8d4f24.jfif" class="profile-photo">
+                    </div>
+                </div>
+
+                <!-- Content below photo -->
+                <div class="hero-content">
+                    <h1 class="greeting">
+                        Hi, my name is <span class="name">Kavindu</span>
+                    </h1>
+                     
+                    <div class="role-container">
+                        <h2 class="role-text">
+                            I'm a <span class="rotating-text">
+                                <span>UI/UX Designer</span>
+                                <span>Frontend Developer</span>
+                                <span>Student</span>
+                            </span>
+                        </h2>
+                    </div>
+
+                    <p class="description">
+                        I'm passionate about creating beautiful and functional digital experiences. 
+                        With expertise in design and development, I bring ideas to life through 
+                        innovative solutions and user-centered design approaches.
+                    </p>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="about-section section">
+                <div class="about-container">
+                    <div class="about-header">
+                        <h2>About Me</h2>
+                        <div class="header-line"></div>
+                    </div>
+
+                    <div class="about-content">
+                        <div class="about-intro">
+                            <h3>I'm Kavindu Sathsara and a <span class="highlight">Web Developer</span></h3>
+                            <p>
+                              I’m a BICT student passionate about coding, creativity, and problem-solving. I enjoy exploring new technologies and building digital solutions that make a real impact. Outside of tech, I stay inspired by playing rugby, gaming, and reading. My goal is to keep learning, growing, and creating meaningful solutions for modern challenges.
+                            </p>
+                        </div>
+
+                        <div class="about-details">
+                            <div class="details-row">
+                                <div class="detail-item">
+                                    <span class="detail-label">Birthday:</span>
+                                    <span class="detail-value">20 December 2002</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Age:</span>
+                                    <span class="detail-value">22</span>
+                                </div>
+                            </div>
+
+                            <div class="details-row">
+                                <div class="detail-item">
+                                    <span class="detail-label">Website:</span>
+                                    <span class="detail-value">www.kssportfolio.com</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Email:</span>
+                                    <span class="detail-value">sathsarasenadeera844@gmail.com</span>
+                                </div>
+                            </div>
+
+                            <div class="details-row">
+                                <div class="detail-item">
+                                    <span class="detail-label">Degree:</span>
+                                    <span class="detail-value">BICT</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Phone:</span>
+                                    <span class="detail-value">0716324670</span>
+                                </div>
+                            </div>
+
+                            <div class="details-row">
+                                <div class="detail-item">
+                                    <span class="detail-label">City:</span>
+                                    <span class="detail-value">Rathnapura</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Freelance:</span>
+                                    <span class="detail-value">Available</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills" class="skills-section section">
+                <div class="section-container">
+                    <div class="section-header">
+                        <h2>My Skills</h2>
+                        <div class="header-line"></div>
+                    </div>
+
+                    <div class="skills-content">
+                        <div class="skills-intro">
+                            <h3>Technical Expertise</h3>
+                            <p>
+                                Here are my core technical skills and proficiency levels. I'm continuously improving 
+                                and learning new technologies to stay current with industry standards.
+                            </p>
+                        </div>
+
+                        <div class="skills-grid">
+                            <div class="skills-column">
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <span class="skill-name">HTML/CSS</span>
+                                        <span class="skill-percentage">95%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="95%"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <span class="skill-name">JavaScript</span>
+                                        <span class="skill-percentage">85%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="85%"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <span class="skill-name">React</span>
+                                        <span class="skill-percentage">80%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="80%"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <span class="skill-name">UI/UX Design</span>
+                                        <span class="skill-percentage">90%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="90%"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills-column">
+                                
+
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <span class="skill-name">Python</span>
+                                        <span class="skill-percentage">70%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="70%"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <span class="skill-name">Database (SQL/NoSQL)</span>
+                                        <span class="skill-percentage">78%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="78%"></div>
+                                    </div>
+                                </div>
+
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Project Section -->
+            <section id="portfolio" class="portfolio-section section">
+                <div class="section-container">
+                    <div class="section-header">
+                        <h2>Projects</h2>
+                        <div class="header-line"></div>
+                    </div>
+                    
+                    <div class="portfolio-grid">
+                        <a class="project-link" href="https://github.com/sathsarasenadeera844-pixel/Food-Delivery-Project.git" target="_blank" rel="noreferrer">
+                            <div class="portfolio-item">
+                            <div class="portfolio-image"><img class="project-image" src="Annotation 2025-08-25 025049.png" alt=""></div>
+                            <div class="portfolio-content">
+                                <h3 class="portfolio-title">Food delivery project</h3>
+                                <p class="portfolio-description">
+                                   Created a simple website where users can look at food items, place an order, and see delivery details
+                                </p>
+                                <div class="portfolio-tech">
+                                    <span class="tech-tag">Figma</span>
+                                    <span class="tech-tag">HTML/CSS</span>
+                                    <span class="tech-tag">JavaScript</span>
+                                </div>
+                            </div>
+                            </div>
+
+                        </a>
+                        
+                        <a class="project-link" href="https://github.com/sathsarasenadeera844-pixel/Food-delivery-project-2-.git" target="_blank"> <div class="portfolio-item">
+                            <div class="portfolio-image"><img class="project-image" src="dessert.png"></div>
+                            <div class="portfolio-content">
+                                <h3 class="portfolio-title">Food delivery project 2</h3>
+                                <p class="portfolio-description">
+                                    Created a simple website where users can look at food items, place an order, and see delivery details
+                                </p>
+                                <div class="portfolio-tech">
+                                    <span class="tech-tag">Figma</span>
+                                    <span class="tech-tag">HTML/CSS</span>
+                                    <span class="tech-tag">JavaScript</span>
+                                </div>
+                            </div>
+                        </div></a>
+                       
+                        
+                        <a class="project-link"href="https://github.com/sathsarasenadeera844-pixel/calculator-master.git"target="_blank"> <div class="portfolio-item">
+                            <div class="portfolio-image"><img class="project-image" src="cal.png" alt=""></div>
+                            <div class="portfolio-content">
+                                <h3 class="portfolio-title">Calculator</h3>
+                                <p class="portfolio-description">
+                                    Made a basic calculator app that can do simple math like addition, subtraction, multiplication, division etc
+                                </p>
+                                <div class="portfolio-tech">
+                                    <span class="tech-tag">Html</span>
+                                    <span class="tech-tag">CSS</span>
+                                    <span class="tech-tag">JavaScript</span>
+                                </div>
+                            </div>
+                        </div>
+</a>
+                       
+                        
+
+                        
+                    </div>
+                </div>
+            </section>
+
+            <!-- Services Section -->
+            <section id="services" class="services-section section">
+                <div class="section-container">
+                    <div class="section-header">
+                        <h2>Services</h2>
+                        <div class="header-line"></div>
+                    </div>
+                    <div class="services-grid">
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <div class="icon-box red">
+                                    📱
+                                </div>
+                            </div>
+                            <h3 class="service-title">Web Development</h3>
+                            <p class="service-description">
+                                Creating responsive and modern websites using the latest technologies 
+                                and best practices for optimal performance and user experience.
+                            </p>
+                        </div>
+
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <div class="icon-box blue">
+                                    💻
+                                </div>
+                            </div>
+                            <h3 class="service-title">Frontend Development</h3>
+                            <p class="service-description">
+                                Building interactive user interfaces with React, Vue.js, and vanilla JavaScript,
+                                focusing on performance, accessibility, and modern design patterns.
+                            </p>
+                        </div>
+
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <div class="icon-box pink">
+                                    🎨
+                                </div>
+                            </div>
+                            <h3 class="service-title">UI/UX Design</h3>
+                            <p class="service-description">
+                                Designing user-centered interfaces and experiences that are both beautiful 
+                                and functional, with focus on usability and conversion optimization.
+                            </p>
+                        </div>
+
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <div class="icon-box orange">
+                                    &lt;/&gt;
+                                </div>
+                            </div>
+                            <h3 class="service-title">Backend Development</h3>
+                            <p class="service-description">
+                                Building robust server-side applications and APIs using Node.js, Python, 
+                                and database technologies for scalable web solutions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="contact-section section">
+                <div class="section-container">
+                    <div class="section-header">
+                        <h2>Contact Me</h2>
+                        <div class="header-line"></div>
+                    </div>
+                    
+                    <div class="contact-content">
+                        <div class="contact-intro">
+                            <h3>Do You Have Any Questions?</h3>
+                            <p class="contact-subtitle">I'M AT YOUR SERVICE</p>
+                        </div>
+
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    📞
+                                </div>
+                                <h4>Call Us On</h4>
+                                <p>0716324670</p>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    ✉️
+                                </div>
+                                <h4>Email</h4>
+                                <p>sathsarasenadeera844@gmail.com</p>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    🌐
+                                </div>
+                                <h4>Website</h4>
+                                <p>www.kssportfolio.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-form-section">
+                            <h3>SEND ME AN EMAIL</h3>
+                            <p class="form-subtitle">I'M VERY RESPONSIVE TO MESSAGES</p>
+                            
+                            <form class="contact-form" onsubmit="handleFormSubmit(event)">
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <input type="text" name="name" placeholder="Your Name" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" name="email" placeholder="Your Email" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="subject" placeholder="Subject" required>
+                                </div>
+                                <div class="form-group">
+                                    <textarea name="message" placeholder="Your Message" required></textarea>
+                                </div>
+                                <button type="submit" class="submit-btn">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </</div>
+            </section>
+        </main>
+    </div>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
